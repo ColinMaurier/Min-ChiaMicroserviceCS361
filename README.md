@@ -14,6 +14,11 @@ We see in the client.py application, we are creating a connection to the same po
 ## socket = context.socket(zmq.REQ)
 ## socket.connect("tcp://localhost:4321")
 
-and on line 14, we send our weather data to the microservice:
+and on line 14, we send our weather data to the microservice, which is how we request data back:
 
 ## socket.send_string(weather_type)
+
+# Recieve Data
+The microservice then reads through the .txt file with the read_clothing_suggestions() function, stores the data, and sends it back to the 
+client application in line 32:
+## socket.send_string(suggestion)
