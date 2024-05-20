@@ -1,0 +1,3 @@
+hot: tshirt, shorts, sunglasses, hat, sunscreen
+cold: jacket, sweater, gloves, beanie, scarf
+rainy: raincoat, umbrella, water shoes
