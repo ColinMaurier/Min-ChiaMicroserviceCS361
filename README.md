@@ -22,7 +22,9 @@ and on line 14, we send our weather data to the microservice, which is how we re
 The microservice then reads through the .txt file with the read_clothing_suggestions() function, stores the data, and sends it back to the 
 client application in line 32:
 ## socket.send_string(suggestion)
+This sends the data that the microservice retrieved from the .txt file. 
 
-# When all is sad and done, the output will look something like:
+# Example
+When all is said and done, the output will look something like:
 ## Please enter weather type (hot, cold, or rainy): hot
 ## Clothing suggestion: tshirt, shorts, sunglasses, hat, sunscreen
