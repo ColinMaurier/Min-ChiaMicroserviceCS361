@@ -4,8 +4,16 @@ This is completed through communication between the client script, the microserv
 
 # Request Data
 Requesting data is made easy with these scripts.
+
+First, we want to make sure both the client.py application and microservice.py applications are running concurrently.
+If they are, we will be asked to enter "hot", "cold", or "rainy." This input is what is sent to microservice to request data back.
+
 We see in the client.py application, we are creating a connection to the same port as the microservie.py application, starting on line 6:
 
 ## context = zmq.Context()
 ## socket = context.socket(zmq.REQ)
 ## socket.connect("tcp://localhost:4321")
+
+and on line 14, we send our weather data to the microservice:
+
+## socket.send_string(weather_type)
