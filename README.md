@@ -26,5 +26,9 @@ This sends the data that the microservice retrieved from the .txt file.
 
 # Example
 When all is said and done, the output will look something like:
-## Please enter weather type (hot, cold, or rainy): hot
-## Clothing suggestion: tshirt, shorts, sunglasses, hat, sunscreen
+### Please enter weather type (hot, cold, or rainy): hot
+### Clothing suggestion: tshirt, shorts, sunglasses, hat, sunscreen
+
+# UML
+<img width="921" alt="Microservice UML" src="https://github.com/ColinMaurier/Min-ChiaMicroserviceCS361/assets/89815699/9cfcb511-9fdc-4a9f-a086-852b0d6c1d2c">
+
